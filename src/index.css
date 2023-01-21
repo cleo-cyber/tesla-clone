@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 body{
@@ -12,6 +13,10 @@ body{
 
 }
 
+a{
+  text-transform: uppercase;
+  text-decoration: none;
+}
 @keyframes animateDown{
   0%,20%,50%,80%,100%{
     transform: translateY(0);
